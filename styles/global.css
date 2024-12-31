@@ -32,3 +32,8 @@
   --text-md: 1rem/140% "Maven Pro", sans-serif;
   --text-sm: 1rem/140% "Maven Pro", sans-serif;
 }
+
+body {
+  background-color: var(--gray-300);
+  overflow: hidden;
+}

@@ -1,0 +1,100 @@
+.info__bg {
+  width: 100vw;
+  height: 46.8rem;
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  display: block;
+  align-content: center;
+  position: relative;
+}
+
+.info__container {
+  width: 65rem;
+  height: 28rem;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.header__content {
+  width: 42.5rem;
+  height: 20.4rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile__picture {
+  width: 42.5rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.5rem;
+}
+
+.person__picture {
+  width: 7rem;
+  height: 7rem;
+  border: 5px solid var(--red);
+  border-radius: 50%;
+  margin-bottom: 3.5rem;
+}
+
+.code__image {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  align-self: end;
+  left: -7%;
+}
+
+h2 {
+  font: var(--subtitle);
+  color: var(--gray-500);
+  & span {
+    font: var(--subtitle);
+    color: var(--red);
+  }
+  margin-bottom: 8px;
+}
+
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+  margin-bottom: 20px;
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.tags__container {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  & span {
+    display: flex;
+    width: 7.1rem;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: var(--tex-md);
+    color: var(--gray-500);
+    background-color: var(--gray-300);
+    border-radius: 20px;
+  }
+}
+
+span > img {
+  width: 24px;
+}
+
+.arrow__down {
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
+}
